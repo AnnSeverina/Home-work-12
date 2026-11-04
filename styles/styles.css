@@ -265,21 +265,21 @@ footer {
   padding: 20px 0;
 }
 
-.home-page .page-title,
-.home-page .section-title,
-.home-page .list-books {
+.page-title,
+.section-title,
+.list-books {
   margin-bottom: 24px;
 }
 
-.home-page p:not(:last-child) {
+p:not(:last-child) {
   margin-bottom: 16px;
 }
 
-.home-page .cats-list img {
+.cats-list img {
   margin-bottom: 12px;
 }
 
-.home-page .hobby .section-title {
+.hobby .section-title {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -292,11 +292,11 @@ footer {
   border: var(--border-pink);
 }
 
-.home-page .cats-list li {
+.cats-list li {
   position: relative;
 }
 
-.home-page .cats-list h3 {
+.cats-list h3 {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -305,7 +305,7 @@ footer {
   border: var(--border-pink);
 }
 
-.home-page .back-to-top {
+.back-to-top {
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -326,100 +326,100 @@ footer {
     color 500ms ease;
 }
 
-.home-page .aboutme img {
+.aboutme img {
   display: block;
   margin: 0 auto;
 }
 
-.home-page .back-to-top:hover,
-.home-page .back-to-top:focus {
+.back-to-top:hover,
+.back-to-top:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
-.home-page header .container,
-.home-page footer .container {
+header .container,
+footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
 }
 
-.home-page .header-list {
+.header-list {
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.home-page .logo,
-.home-page .header-list > li {
+.logo,
+.header-list > li {
   flex-shrink: 0;
 }
 
-.home-page header nav {
+header nav {
   flex-grow: 1;
 }
 
-.home-page .header-list,
-.home-page footer address {
+.header-list,
+footer address {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.home-page footer address {
+footer address {
   flex-wrap: wrap;
   flex-grow: 1;
   justify-content: center;
 }
 
-.home-page .list-books,
-.home-page .list-games {
+.list-books,
+.list-games {
   display: flex;
   flex-direction: column;
 }
 
-.home-page .list-books {
+.list-books {
   gap: 16px;
   padding-left: 24px;
 }
 
-.home-page .list-games {
+.list-games {
   gap: 24px;
 }
 
-.home-page .list-games > li {
+.list-games > li {
   display: flex;
   align-items: baseline;
   gap: 24px;
 }
 
-.home-page .list-games h3,
-.home-page .cats-list > li {
+.list-games h3,
+.cats-list > li {
   flex-shrink: 0;
 }
 
-.home-page .list-games h3 {
+.list-games h3 {
   flex-basis: 300px;
 }
 
-.home-page .list-games p {
+.list-games p {
   flex-grow: 1;
   flex-basis: 0;
 }
 
-.home-page .cats-list {
+.cats-list {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 32px;
 }
 
-.home-page .cats-list > li {
+.cats-list > li {
   flex-basis: 400px;
 }
 
-.home-page .header-list a,
-.home-page footer address a {
+.header-list a,
+footer address a {
   text-decoration: underline;
   text-decoration-color: transparent;
   transition:
@@ -427,48 +427,48 @@ footer {
     text-decoration-color 500ms ease;
 }
 
-.home-page .header-list a:hover,
-.home-page .header-list a:focus,
-.home-page footer address a:hover,
-.home-page footer address a:focus {
+.header-list a:hover,
+.header-list a:focus,
+footer address a:hover,
+footer address a:focus {
   text-decoration-color: var(--accent-color);
 }
 
-.home-page .falling-leaves {
+.falling-leaves {
   position: fixed;
   inset: 0;
   overflow: hidden;
   pointer-events: none;
 }
 
-.home-page .falling-leaves span {
+.falling-leaves span {
   position: absolute;
   top: -40px;
   font-size: 28px;
   animation: falling-leaves 6s linear infinite;
 }
 
-.home-page .falling-leaves span:nth-child(1) {
+.falling-leaves span:nth-child(1) {
   left: 15%;
   animation-delay: -2s;
 }
 
-.home-page .falling-leaves span:nth-child(2) {
+.falling-leaves span:nth-child(2) {
   left: 40%;
   animation-delay: -5s;
 }
 
-.home-page .falling-leaves span:nth-child(3) {
+.falling-leaves span:nth-child(3) {
   left: 60%;
   animation-delay: -1s;
 }
 
-.home-page .falling-leaves span:nth-child(4) {
+.falling-leaves span:nth-child(4) {
   left: 75%;
   animation-delay: -4s;
 }
 
-.home-page .falling-leaves span:nth-child(5) {
+.falling-leaves span:nth-child(5) {
   left: 90%;
   animation-delay: -3s;
 }
